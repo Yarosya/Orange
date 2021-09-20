@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="shortcut icon" type="image/png" href="./img/favic.png"/>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div  >
+                    <a class="logo href="#top" ">
+                      <picture class="logo__img">
+                      
+                        <img src="img/logo.png" alt="">
+                      </picture>
+                    </a>
+                   </div>
+               
+                   <nav class="menu">
+                    <button class="menu__btn burger">
+                      <span class="menu__btn-line">
+                      </span>
+                    </button>
+                     <ul class="menu__list list">
+                       <li class="menu__list-item">
+                         <a  class="menu__list-link" href="#">ГЛАВНАЯ</a>
+                       </li>
+                       <li class="menu__list-item" >
+                         <a  class="menu__list-link" href="#">ГАЛЕРЕЯ</a>
+                       </li>
+                       <li class="menu__list-item" >
+                         <a  class="menu__list-link" href="#">ПРОЕКТЫ</a>
+                       </li>
+                       <li class="menu__list-item"  >
+                         <a class="menu__list-link" href="#">СЕРТИФИКАТЫ</a>
+                       </li>
+                       <li class="menu__list-item" >
+                         <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+                       </li>
+                     </ul>
+                   </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="slider">
+            <div class="container">
+              <div class="swiper slider__inner">
+                <div class="slider__title">
+                  <p>PROJECT <span>HOME</span></p>
+                </div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper slider__wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide slider__item">
+                    <div class="slider__item-wrapper">
+                      <div class="slider__img">
+                        <img src="./img/slider-bg.png" alt="project">
+                      </div>
+                      <div class="slider__btn btn">
+                        <button>ВЗГЛЯНУТЬ</button>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <div class="swiper-slide slider__item">
+                    <div class="slider__item-wrapper">
+                      <div class="slider__img">
+                        <img src="./img/slider-bg.png" alt="project">
+                      </div>
+                      <div class="slider__btn btn">
+                        <button>ВЗГЛЯНУТЬ</button>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination slider__fraction"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+              </div>
+
+            </div>
+
+        </section>
+        <section class="about">
+          <div class="container">
+            <div class="about__wrapper">
+              <div class="about__img">
+                <div class="about__img-l" >
+                  <img src="./img/about-01.png" alt="">
+                  <img src="./img/about-02.png" alt="">
+                </div>
+                <div class="about__img-r">
+                  <img src="./img/about-03.png" alt="">
+                </div>
+              </div>
+              <div class="about__info">
+                <div class="about__info-title title">О компании</div>
+                <div class="about__info-text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                     It has survived not only five centuries, but also the leap into electronic typesetting,
+                      remaining essentially unchanged.
+                </div>
+                <div class="about__info-btn btn">
+                  <button>ЧИТАТЬ</button>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </section>
+        <section class='tasks'>
+          <div class="container">
+            <div class="tasks__wrapper">
+              <div class="tasks__title title">
+                Основные задачи
+              </div>
+             <div class="tasks__number">
+              <div class="tasks__first">
+                <p>1</p>
+                <span>Создание комфортных условий и повышение качества обслуживания клиентов</span>
+              </div>
+              <div class="tasks__second">
+                <p>2</p>
+                <span>Постоянно совершенствовать качество предоставляемых услуг 
+                  путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</span>
+              </div>
+             </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="project">
+          <div class="container">
+            <div class="project__wrapper">
+              <div class="project__title title">
+                Наши проекты
+              </div>
+              <div class="project__group first-group">
+                <div class="project__item">
+                  <img src="./img/proj-1.png" alt="project">
+                  <div class="project__item-info">
+                      <div>ДОСУГОВЫЙ ЦЕНТР</div>
+                    <button>ПОДРОБНЕЕ</button>
+                  </div>
+                </div>
+                <div class="project__item">
+                  <img src="./img/proj-2.png" alt="project">
+                  <div class="project__item-info">
+                      <div>ДОСУГОВЫЙ ЦЕНТР</div>
+                    <button>ПОДРОБНЕЕ</button>
+                  </div>
+                </div>
+              </div>
+              <div class="project__group second-group">
+                <div class="project__item">
+                  <img src="./img/proj-3.png" alt="project">
+                  <div class="project__item-info">
+                      <div>Lorem</div>
+                    <button>ПОДРОБНЕЕ</button>
+                  </div>
+                </div>
+
+                <div class="project__item">
+                  <img src="./img/proj-4.png" alt="project">
+                  <div class="project__item-info">
+                      <div>Lorem ipsum</div>
+                    <button>ПОДРОБНЕЕ</button>
+                  </div>
+                </div>
+
+                <div class="project__item">
+                  <img src="./img/proj-5.png" alt="project">
+                  <div class="project__item-info">
+                      <div>Lorem</div>
+                    <button>ПОДРОБНЕЕ</button>
+                  </div>
+                </div>
+            </div>
+            <div class="project__btn btn">
+              <button>ВСЕ ПРОЕКТЫ</button>
+            </div>
+          </div>
+        </div>
+        </section>
+        <section class="connection">
+          <div class="container">
+            <div class="connection__wrapper">
+              <div class="connection__title title">
+                Связаться с нами
+              </div>
+             <div class="connection__wrapper-inner">
+              <div class="connection__form">
+                <form >
+                  <input type="text" required placeholder="Имя">
+                  <input type="phone" required placeholder="Номер телефона*">
+                  <input type="mail" required placeholder="E-mail">
+                  <input type="text" required placeholder="Интересующий товар/услуга">
+
+                  <textarea name="" placeholder="Сообщение*"></textarea>
+
+                  <div class="approv-container">
+                  <input id="approve" class="check" type="checkbox">
+                  <label for="approve">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</label>
+                  </div>
+                </form>
+                <div class="connection__btn btn">
+                  <button>ОТПРАВИТЬ</button>
+                </div>
+              </div>
+              <div class="connection__bg">
+                <img src="./img/form-img.jpg">
+              </div>
+             </div>
+
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__logo">
+            <img src="./img/footer_logo.png" alt="">
+          </div>
+          <div class="footer__wrapper-inner">
+            <div class="footer__info">
+              <p>Информация</p>
+              <nav class="footer__menu">
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a  class="footer__list-link" href="#">Главная</a>
+                  </li>
+                  <li class="footer__list-item" >
+                    <a  class="footer__list-link" href="#">Галерея</a>
+                  </li>
+                  <li class="footer__list-item" >
+                    <a  class="footer__list-link" href="#">Проекты</a>
+                  </li>
+                  <li class="footer__list-item"  >
+                    <a class="footer__list-link" href="#">Сертификаты</a>
+                  </li>
+                  <li class="footer__list-item" >
+                    <a class="footer__list-link" href="#">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+  
+            <div class="footer__contact">
+              <p> Контакты</p>
+              <ul>
+                <li class="map">100000, Республика Казахстан, г. Караганда, ул. Телевизионная 10</li>
+                <li class="phone">+38 (000) 000 00 00</li>
+                <li class="mail">mail@gmail.com</li>
+              </ul>
+            </div>
+  
+            <div class="footer__social">
+              <p>Социальные сети</p>
+              <ul class="social-icons">
+                <li ><a class="facebook" href="#" target="_blank"></a></li>
+                <li ><a class="twitter" href="#" target="_blank"></a></li>
+                <li ><a class="linkedin" href="#" target="_blank"></a></li>
+                <li ><a class="pinterest" href="#" target="_blank"></a></li>
+              </ul>
+  
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      <div class="footer__copy">
+        <p>© 2019 Digital Project. Все права защищены.</p>
+      </div>
+
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

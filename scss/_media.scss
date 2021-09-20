@@ -1,0 +1,195 @@
+@media screen and (max-width:1200px) {
+    .container{
+        max-width: 970px;
+    }
+    .title{
+        text-align: center;
+    }
+    .connection{
+        &__wrapper-inner{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        &__bg{
+            margin-bottom: 15px;
+        }
+        &__btn button{
+            width: 100%;
+        }
+        
+    }
+    .about{
+        &__wrapper{
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        &__info{
+            width: 100%;
+        }
+        &__info-text{
+            padding-bottom: 120px;
+        }
+        &__info-btn button{
+            top: 240px !important;
+        }
+    }
+    .slider{
+        &__inner{
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        &__title{
+            padding-top: 20px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        &__wrapper{
+            width: 100%;
+        }
+       
+  
+    &__item-wrapper{
+        margin:0 auto ;
+    }
+}
+.slider .swiper-pagination{
+    bottom: 0px !important;
+}
+    .slider .swiper-button-next,
+    .slider .swiper-button-prev{
+       display: none;
+    }
+    
+  
+    
+}
+@media screen and (max-width:980px){
+    .container{
+        max-width: 750px;
+    }
+    .menu{
+        &__list{
+            position: absolute;
+            background: aliceblue;
+            width: 100%;
+            left: 0;
+            text-align: center;
+            justify-content: center;
+            padding: 15px;
+        }
+       
+       
+        &__btn{
+            position: relative;
+            cursor: pointer;
+            display: block; 
+            width: 40px;
+            height: 40px;
+            border: none;
+            outline: none;
+            span{
+                position: relative;
+                display: block;
+                width: 20px;
+                height: 2px;
+                background: #333333;
+            }
+            span::before,
+            span::after{
+                content: '';
+                position: absolute;
+                background: #333333;
+                width: 30px;
+                height: 2px;
+                left: 0;
+            }
+            span::before{
+                top: 11px;
+            }
+            span::after{
+                top: -11px;
+            }
+            
+        }
+       
+    }
+    .list{
+        transform: translateY(-700px);
+        transition: all .3s;
+    }
+    .list.active{
+        transform: translateY(10px);
+        transition: all .5s;
+    }
+    
+    .tasks{
+        &__number{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .about{
+         &__info-btn button{
+            top: 250px !important;
+        }
+        &__img{
+            width: auto;
+        }
+    }
+    .project{
+        &__item{
+            margin-left: 0 !important ;
+            margin-bottom: 10px;
+            img{
+                width: 100%;
+            }
+        }
+        &__item-info{
+            transform: translateX(-750px);
+           div{
+            font-size: 30px;
+           }
+        }
+    }
+    .first-group{
+        flex-direction: column;
+    }
+    .footer{
+        &__wrapper{
+          flex-direction: column;
+          align-items: center;
+        }
+        &__wrapper-inner{
+            justify-content: space-around;
+            width: 100%;
+        }
+      &__copy{
+          margin-top: 122px;
+      }
+        &__info {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    .container{
+        padding: 0 35px;
+    }
+    .menu{
+        &__list{
+            display: flex;
+            background: #F2F2F2;
+            ;
+            flex-direction: column;
+            z-index: 10;
+        }
+        &__list-item{
+            padding-bottom: 10px;
+        }
+    }
+    .about__info-btn button{
+        top: 291px !important;
+    }
+   
+}
